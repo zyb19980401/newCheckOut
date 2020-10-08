@@ -1,0 +1,28 @@
+.navigator {
+    /* position: fixed; */
+    height: 4em;
+    padding: 0 1%;
+    background-color:rgba(5,29,51,.8);
+    display: flex}
+
+.backhomeButton{
+    height:3em;
+    margin-top: 0.5em;
+    background-color:transparent;
+    color: white;
+    font-weight:600;
+    font-size:medium
+}
+
+ #logoPic{
+    width: 4em;
+    height: 4em;
+    float: left;
+    position: relative;
+    left: 2%;
+    background-color: white
+  }
+  #FontTest{
+    font-weight: bold;
+    font-family: "LuloClean";
+  }

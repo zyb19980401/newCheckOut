@@ -1,0 +1,59 @@
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #dee2e6;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: 0.4s;
+}
+pre, textarea {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #6DC7BE;
+    color: #666;
+    page-break-inside: avoid;
+    font: normal normal 13px/16px Courier New,Courier,Monospace;
+    line-height: 1.0;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    padding: .5em 1em;
+    display: block;
+    word-wrap: break-word;
+    overflow: auto;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    counter-reset: line;
+}
+
+pre:hover,
+pre:focus {
+    /* what ever action */
+    /* this is just example */
+    border-left: 3px solid #00677F;
+}
+
+textarea:hover,
+textarea:focus {
+    /* what ever action */
+    /* this is just example */
+    border-left: 3px solid #00677F;
+}
+
+pre .line-number {
+    float: left;
+    margin: 0 1em 0 -1em;
+    border-right: 1px solid;
+    text-align: right;
+}
+
+pre .line-number span {
+    display: block;
+    padding: 0 .5em 0 1em;
+    font-size: 14px;
+    font-family: Courier New,Courier,Monospace;
+}
